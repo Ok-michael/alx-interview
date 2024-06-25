@@ -1,12 +1,13 @@
 #!/usr/bin/python3
-"""Pascal Triangle Interview Challeng"""
+"""Pascal Triangle Interview Challenge"""
 
 
 def pascal_triangle(n):
-    """this function returns a list representatio
-    of the pascal triangle"""
+    """returns a list of lists of numbers
+    representing the pascal triangle"""
     if n <= 0:
         return []
+
     pascal_triangle = [0] * n
 
     for i in range(n):
