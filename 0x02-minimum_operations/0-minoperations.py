@@ -53,7 +53,7 @@ def minOperations(n):
             # increment operations counter
             counter += 2
 
-    # if got the desired result
+    # if got the desired result then
     if pasted_chars == n:
         return counter
     else:
