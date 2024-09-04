@@ -1,11 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
+
 """ Prime Game Algorithm Python """
 
 
 def is_prime(n):
-    """ 
-        Checks if a number given n is a prime number
-    """
+    """ Checks if a number given n is a prime number """
     for i in range(2, int(n ** 0.5) + 1):
         if not n % i:
             return False
@@ -25,7 +24,7 @@ def calculate_primes(n, primes):
 
 def isWinner(x, nums):
     """
-    x is the number of rounds & nums's an array of n
+    x is the number of rounds and nums is an array of n
     Return: name of the player that won the most rounds
     If the winner cannot be determined, return None
     You can assume n and x will not be larger than 10000
